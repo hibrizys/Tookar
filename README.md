@@ -4,7 +4,7 @@ Bangkit Capstone Project C23-PS229
 
 ## Overview
 
-Tookar is...
+Tookar is....
 
 ## Project Team member
 
