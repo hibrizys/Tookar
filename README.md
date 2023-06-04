@@ -13,7 +13,7 @@ Tookar is....
 |               Galuh Pramuditha               |  M166DSY0090  |  Machine Learning   |     http://linkedin.com/in/galuhajengpramuditha     |
 |          Mochammad Aditya Suhendar           |  M040DSX0506  |  Machine Learning   |        https://www.linkedin.com/in/darhensu         |
 |                Amalia Nuraini                |  A066DSY1056  |  Mobile Development | https://www.linkedin.com/in/amalia-nuraini-an100602 |
-|               Denesa Ekalista                |  A369DSY1699  |  Mobile Development |        https://www.linkedin.com/denesaekalista      |
+|               Denesa Ekalista                |  A369DSY1699  |  Mobile Development |      https://www.linkedin.com/in/denesaekalista     |
 |                Benyamin Siregar              |  C361DSX0691  |  Cloud Computing    |     https://www.linkedin.com/in/benyamin-siregar    |
 |               Hibrizy Sulistiyo              |  C360DSX1644  |  Cloud Computing    |         https://www.linkedin.com/in/hibrizys        |
 
