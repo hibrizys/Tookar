@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Add Product" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_signin"
+                android:icon="@drawable/ic_signin_black_24dp"
+                android:title="Sign In" />
+            <item
+                android:id="@+id/nav_signup"
+                android:icon="@drawable/ic_register_account_black_24dp"
+                android:title="Register" />
+
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_black_24dp"
+                android:title="About App" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="Contact Tookar" />
+        </menu>
+    </item>
+
+</menu>

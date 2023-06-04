@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.ViewProductActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginEnd="24dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ib_view_photo"
+                android:layout_width="@dimen/thumbnail_img_dim"
+                android:layout_height="@dimen/thumbnail_img_dim"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/image_border"
+                android:padding="9dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_image_100dp" />
+
+            <RelativeLayout
+                android:layout_width="24dp"
+                android:layout_height="match_parent"></RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ib_view_video"
+                android:layout_width="@dimen/thumbnail_img_dim"
+                android:layout_height="@dimen/thumbnail_img_dim"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/image_border"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_no_video_100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="Added on "></TextView>
+
+            <TextView
+                android:id="@+id/tv_product_view_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="01.06.2023"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout_timestamp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="By  "></TextView>
+
+            <TextView
+                android:id="@+id/tv_product_view_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="anonymous@yahoo.com"></TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_view_product_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginEnd="24dp"
+            android:selectAllOnFocus="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout_user" />
+
+        <TextView
+            android:id="@+id/tv_view_product_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/max_multi_line_input_height"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:gravity="top|left"
+            android:lines="20"
+            android:maxLength="250"
+            android:maxLines="5"
+            android:minLines="5"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:textIsSelectable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_view_product_title" />
+
+        <Button
+            android:id="@+id/btn_other_products"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_user_s_other_products"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="396dp" />
+
+        <Button
+            android:id="@+id/btn_barter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/colorPrimary"
+            android:enabled="true"
+            android:text="@string/action_barter"
+            android:textColor="@color/colorBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_other_products"
+            app:layout_constraintVertical_bias="0.393" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
