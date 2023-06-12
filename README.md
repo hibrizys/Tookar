@@ -4,7 +4,7 @@ Bangkit Capstone Project C23-PS229
 
 ## Overview
 
-Tookar is....
+Tookar is an app which has the purpose for surplus items is designed to encourage sustainable and environmentally friendly behavior among users by facilitating the exchange of goods that might otherwise be discarded as waste.
 
 ## Project Team member
 
