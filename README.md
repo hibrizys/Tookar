@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PS229
 
-![logo app] (https://github.com/hibrizys/Tookar/blob/main/Logo.png)
+![logo app](https://github.com/hibrizys/Tookar/blob/main/Logo.png)
 
 ## Overview
 
