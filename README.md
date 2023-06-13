@@ -41,7 +41,7 @@ Coming Soon!
 
 You can see it [here](https://www.figma.com/file/RM0HvxA47qMn6Dgo5P03Hz/Capstone-Project?type=design&node-id=169-94).
 
-## Use our app
+## Our application
 
 Coming Soon!
 
