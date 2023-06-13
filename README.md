@@ -45,7 +45,7 @@ You can see it [here](https://www.figma.com/file/RM0HvxA47qMn6Dgo5P03Hz/Capstone
 
 Coming Soon!
 
-## Deploying to GCP
+## Deploy on GCP
 
 Coming Soon!
 
