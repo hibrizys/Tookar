@@ -23,15 +23,25 @@ Tookar is an app which has the purpose for surplus items is designed to encourag
 
 Coming Soon!
 
-## Library
+## Library Android Application
 
 Coming Soon!
+
+## Library Back-end System
+
+1. [Express JS](https://expressjs.com)
+2. [Mysql](https://www.npmjs.com/package/mysql)
+3. [body-parser](https://www.npmjs.com/package/body-parser)
+4. [Dotenv](https://www.npmjs.com/package/dotenv)
+5. [express-session](https://www.npmjs.com/package/express-session)
+6. [pool](https://www.npmjs.com/package/pool-mysql)
+
 
 ## Prototype
 
 You can see it [here](https://www.figma.com/file/RM0HvxA47qMn6Dgo5P03Hz/Capstone-Project?type=design&node-id=169-94).
 
-## How to use our app
+## Use our app
 
 Coming Soon!
 
@@ -41,7 +51,7 @@ Coming Soon!
 
 ## API Documentation
 
-Coming Soon!
+you can check the API documentation on [here](https://documenter.getpostman.com/view/26548004/2s93sf1AuB)
 
 ## Future Developments
 
