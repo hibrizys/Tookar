@@ -21,7 +21,7 @@ Tookar is an app which has the purpose for surplus items is designed to encourag
 
 ## Tech Stacks
 
-[Tech Stacks](https://github.com/hibrizys/Tookar/blob/main/Documents/Tech%20Stacks.png)
+![Tech Stacks](https://github.com/hibrizys/Tookar/blob/main/Documents/Tech%20Stacks.png)
 
 ## Service Architecture
 
