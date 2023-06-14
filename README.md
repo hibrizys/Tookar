@@ -75,4 +75,4 @@ you can check the API documentation on [here](https://documenter.getpostman.com/
 
 ## Future Developments
 
-Coming Soon!
+To Be Discussed!
