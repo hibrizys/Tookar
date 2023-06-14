@@ -19,9 +19,9 @@ Tookar is an app which has the purpose for surplus items is designed to encourag
 |                Benyamin Siregar              |  C361DSX0691  |  Cloud Computing    |     https://www.linkedin.com/in/benyamin-siregar    |
 |               Hibrizy Sulistiyo              |  C360DSX1644  |  Cloud Computing    |         https://www.linkedin.com/in/hibrizys        |
 
-## Tech Stack
+## Tech Stacks
 
-Coming Soon!
+[Tech Stacks](https://github.com/hibrizys/Tookar/blob/main/Documents/Tech%20Stacks.png)
 
 ## Service Architecture
 
