@@ -9,6 +9,10 @@ GCP Services used:
 - Vertex AI
 - Cloud Storage
 
+## Service Architecture
+
+![Architecture](https://github.com/hibrizys/imageDocsTookar/blob/main/Service%20Architecture.png)
+
 ## App Engine
 
 - Create Application on App Engine
