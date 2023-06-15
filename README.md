@@ -2,7 +2,7 @@
 
 Bangkit Capstone Project C23-PS229
 
-![logo app](https://github.com/hibrizys/Tookar/blob/main/Documents/Logo.png)
+![logo app](https://github.com/hibrizys/imageDocsTookar/blob/main/Logo.png)
 
 ## Overview
 
@@ -21,11 +21,11 @@ Tookar is an app which has the purpose for surplus items is designed to encourag
 
 ## Tech Stacks
 
-![Tech Stacks](https://github.com/hibrizys/Tookar/blob/main/Documents/Tech%20Stacks.png)
+![Tech Stacks](https://github.com/hibrizys/imageDocsTookar/blob/main/Tech%20Stacks.png)
 
 ## Service Architecture
 
-![Architecture](https://github.com/hibrizys/Tookar/blob/main/Documents/Service%20Architecture.png)
+![Architecture](https://github.com/hibrizys/imageDocsTookar/blob/main/Service%20Architecture.png)
 
 ## Library Android Application
 
