@@ -59,7 +59,7 @@ Previously my group mates Machine Learning had making the Train Model Image Clas
 
 ![vertexai4](https://github.com/hibrizys/imageDocsTookar/blob/main/vertexai4.png)
 
-![vertexai5](https://github.com/hibrizys/imageDocsTookar/blob/main/vertexai4.png)
+![vertexai5](https://github.com/hibrizys/imageDocsTookar/blob/main/vertexai5.png)
 
 - then you can deploy and test your model
 
