@@ -67,7 +67,7 @@ You can download [here](https://drive.google.com/file/d/1Z0m3WmLy1cN4JmYtg23KPnY
 
 ## Deploy on GCP
 
-Coming Soon!
+For documentation deploying to Google Cloud Platform, you can check [here](https://github.com/hibrizys/Tookar/blob/main/Cloud%20Computing/GCP%20Deploy.md)
 
 ## API Documentation
 
